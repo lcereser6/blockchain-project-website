@@ -34,8 +34,19 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-stone-400 underline hover:text-stone-200 transition-all"
           >
-           GitHub project folder
+           GitHub website project folder
           </a>
+          <p className="text-white">·</p>
+          <a
+            href="https://github.com/lcereser6/nextjs-postgres-auth-starter"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-stone-400 underline hover:text-stone-200 transition-all"
+          >
+           GitHub smart contracts folder
+          </a>
+
+
         </div>
       </div>
     </div>
