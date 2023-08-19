@@ -10,7 +10,6 @@ export default function Home() {
           height={355}
           src="/logo.png"
           alt="Platforms on Vercel"
-          className="w-96 h-52"
         />
         <div className="text-center max-w-screen-sm mb-10">
           <h1 className="text-stone-200 font-bold text-2xl">
@@ -26,25 +25,16 @@ export default function Home() {
             prefetch={false} // workaround until https://github.com/vercel/vercel/pull/8978 is deployed
             className="text-stone-400 underline hover:text-stone-200 transition-all"
           >
-            Protected Page
+            Login Page
           </Link>
           <p className="text-white">·</p>
           <a
-            href="https://github.com/steven-tey/nextjs-typescript-starter"
+            href="https://github.com/lcereser6/nextjs-postgres-auth-starter"
             target="_blank"
             rel="noopener noreferrer"
             className="text-stone-400 underline hover:text-stone-200 transition-all"
           >
-            GitHub
-          </a>
-          <p className="text-white">·</p>
-          <a
-            href="https://vercel.com/templates/next.js/prisma-postgres-auth-starter"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-stone-400 underline hover:text-stone-200 transition-all"
-          >
-            1-click Deploy to Vercel
+           GitHub project folder
           </a>
         </div>
       </div>
