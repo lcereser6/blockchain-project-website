@@ -45,8 +45,6 @@ export default function Home() {
           >
            GitHub smart contracts folder
           </a>
-
-
         </div>
       </div>
     </div>
