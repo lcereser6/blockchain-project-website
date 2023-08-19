@@ -10,7 +10,7 @@ export default function Home() {
           height={355}
           src="/logo.png"
           alt="Platforms on Vercel"
-          className="w-48 h-48"
+          className="w-96 h-52"
         />
         <div className="text-center max-w-screen-sm mb-10">
           <h1 className="text-stone-200 font-bold text-2xl">
